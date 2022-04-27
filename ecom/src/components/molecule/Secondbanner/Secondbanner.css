@@ -1,0 +1,86 @@
+.o-promoOne {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-flow: row;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.mbanner  {
+    position: relative;
+    display: flex;
+  };
+.a-mainBanner__image {
+    width: 100%;
+}
+.m-banners img{
+    height: 394px;
+    max-height: 500px;
+}
+.text-promo-1 {
+    index: 1;
+    width: 33%;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: auto;
+    right: 34%;
+    bottom: auto;
+    color: #fff;
+}
+.text-promo-1 h4 {
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    letter-spacing: 3pt;
+}
+.banner-promo01a-desc {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    right: 27%;
+    margin-top: 5px;
+}
+.black {
+    color: #000;
+}
+.category h1 {
+    font-size: 1vw;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    margin-top: 0em;
+    margin-bottom: 0.4em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 1.2vw;
+}
+.m-banners img {
+    height: 394px;
+    max-height: 500px;
+    width: 100%;
+}
+@media screen and (max-width: 500px){
+    .o-promoOne {
+        flex-flow: column !important;
+    }
+    .m-banners{
+        position: relative !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .text-promo-1 h4{
+        font-size:1rem;
+    }
+}
+@media screen and (min-width:501px) and (max-width:768px){
+    .m-banners img {
+        height: 394px;
+        max-height: 500px;
+        width: 100% !important;
+    }
+}

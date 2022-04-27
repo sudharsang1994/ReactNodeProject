@@ -1,0 +1,147 @@
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+footer {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    background-color: #555;
+}
+.card-columns, .d-footer--padding {
+    padding: 0 4% !important;
+}
+.w-100 {
+    width: 100%!important;
+}
+.m-footer__accordion {
+    background-color: #555 !important;
+    border: 0 !important;
+}
+.card-columns .card {
+    margin-bottom: 0.75rem;
+}
+.m-footer__accordion .card-header {
+    pointer-events: none;
+    background-color: transparent;
+    border: 0;
+    padding: 0 0 15px;
+}
+.m-footer__accordion h3 {
+    font-size: .875em;
+}
+.a-footer__sectionTitle {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size:0.875em;
+}
+.m-footer__accordion i {
+    color: #fff;
+    font-size: 12px;
+    transition: transform .3s ease-in-out;
+    display: none;
+}
+.collapse:not(.show) {
+    display: block;
+}
+.m-footer__accordion .card-body {
+    padding: 0;
+}
+.m-footer__accordion .card-body ul {
+    padding: 0 0 10px;
+}
+.m-footer__accordion .card-body ul li {
+    padding: 8px 0;
+    list-style-type: none;
+}
+.a-footer__link {
+    font-size: 0.75rem;
+    color: #fff;
+}
+.a-footer__link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.a-footer__boletin {
+    font-size: 0.875rem;
+    border: 1px solid #fff;
+    display: block;
+    padding: 10px;
+    color: #fff!important;
+    text-align: center;
+    width: 100%;
+}
+.card-columns, .d-footer--padding {
+    padding: 0 4%;
+}
+.a-footer__contact {
+    font-size: 0.75rem;
+    color: #fff;
+    padding: 1px 0;
+    margin: 0;
+    text-decoration: none;
+}
+.a-footer__comments {
+    display: inline-block;
+    font-size: 0.75rem;
+    color: #fff;
+    margin: 0;
+}
+.a-footer__disclaimers {
+    font-size: 0.75rem;
+    display: inline-block;
+    color: #fff!important;
+    padding: 0 7px;
+}
+.a-footer__slash {
+    font-size: 0.75rem;
+    color: #fff;
+}
+.profecco_main_container img {
+    width: 35%;
+    padding: 0 5px;
+    margin-right: -10px;
+}
+footer hr {
+    border-bottom: 1px solid #979797;
+    margin: 0;
+    padding: 0;
+}
+.a-footer__socialMedia {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 13px;
+}
+.profecco_main_container div {
+    margin-bottom: 12px;
+    display: inline;
+}
+.m-footer__misc {
+    background-color: #464646;
+    padding: 10px 0;
+}
+
+.a-footer__misc {
+    padding: 6px 0;
+    color: #fff;
+    font-size: 0.625rem;
+    margin: 0;
+}
+
+@media (min-width: 576px){
+.card-columns .card {
+    display: inline-block;
+    width: 100%;
+}
+.card-columns {
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
+}
+
+}
+@media (min-width: 576px){
+
+}

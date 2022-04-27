@@ -1,0 +1,80 @@
+@media (min-width: 1200px){
+    .container {
+        max-width: 1440px !important;
+    }
+    }
+    @media screen and (max-width: 500px){
+        .titulos h1 {
+            font-size: 24px !important;
+        }
+        .o-promoOne {
+            flex-flow: column !important;
+        }
+        .mbanner{
+            position: relative !important;
+            display: flex !important;
+            flex-direction: column !important;
+        }
+      
+            .category h1 {
+                font-size: 18px !important;
+                line-height: 4.2vw !important;
+                margin-left: 0px !important;
+            }
+        
+        .text-promo-1 {
+            top: 6%;
+            left: auto;
+            right: 12%;
+        }
+        .banner-promo01a-desc {
+            right: 0%;
+            margin-top: 5px;
+        }
+        .category h1 {
+            font-size: 16px;
+            line-height: 4.2vw;
+        }
+    }
+
+.titulos h1 {
+    font-size: 2vw;
+    letter-spacing: 3pt;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    margin: 0px 0px;
+    text-align: center;
+    color: #fff;
+    background-color: #00a6dd;
+    padding: 15px 0px;
+}
+.o-promoOne {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-flow: row;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.m-banners {
+    position: relative;
+}
+.banner-promo01-desc {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    left: auto;
+    margin-top: 5px;
+}
+.category h1 {
+    font-size: 1vw;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    margin-top: 0em;
+    margin-bottom: 0.4em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 1.2vw;
+}

@@ -1,0 +1,132 @@
+.homepage{
+    min-height: 300px;
+    margin-top: 20px;
+}
+.homepage .carousel-heading {
+    border-bottom: 1px solid #d8d8d8;
+    align-items: center;
+    display: flex;
+}
+.container.homepage a {
+    border-color: #e3e3e3;
+    border-radius: 4px;
+    color: #333;
+}
+.carousel-heading a {
+    z-index: 2;
+    display: inline-block;
+    color: #333;
+    border: none;
+    margin: 20px 20px 24px 0;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 32px;
+    position: relative;
+}
+.container.homepage {
+    max-width: 100% !important;
+    margin-top: 85px!important;
+}
+.container.homepage a {
+    border-color: #e3e3e3;
+    border-radius: 4px;
+    color: #333;
+}
+.homepage .carouselHeading-link {
+    font-size: 20px;
+    color: #666!important;
+    margin: 0!important;
+    text-decoration: underline!important;
+    font: 20px robotoLight!important;
+    left: 3px;
+    position: relative;
+}
+.slick-list, .slick-slider {
+    position: relative;
+    display: block;
+}
+.slickstyle{
+    margin: 0 35px;
+}
+.slickstyle img{
+    height: 256px;
+    width: 200px;
+}
+.slick-prev:before, .slick-next:before {
+    opacity: 1;
+    color: #000;
+}
+.slick-dots {
+    position: absolute;
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: end;
+    top: -27px;
+}
+.pa-carousel {
+    padding: 16px 0 0!important;
+}
+.a-card-description {
+    padding: 0;
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.3;
+    color: #666;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    height: auto;
+    width: 100%;
+}
+.slick-slider .m-ca-card-price {
+    margin-top: 0.5rem;
+}
+.slick-slider .a-card-discount {
+    font-size: 14px;
+    color: red;
+    margin-left: 0.2rem;
+    min-width: auto;
+    max-width: 100%;
+}
+.slick-slider .a-card-price {
+    font-size: 10px;
+    color: #666;
+    margin-left: 0;
+    min-width: auto;
+    max-width: 100%;
+}
+@media screen and (max-width:500px){
+    .container.homepage a {
+        font-size: 24px;
+    }
+    .slickstyle img {
+        height: 256px !important;
+        width: 400px !important;
+    }
+}
+@media screen and (min-width: 500px) and (max-width:768px){
+    .slick-dots {
+        top: -54px;
+    }
+    .slickstyle img {
+        width: 283px;
+    }
+    .category h1 {
+        font-size: 16px !important;
+        font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+        margin-top: 0em !important;
+        margin-bottom: 0em !important;
+        font-weight: 700;
+        line-height: 2.2vw !important;
+    }
+    .mbanner div:nth-child(2) h1{
+        width: 95% !important;
+        margin-left: 70px !important;
+    }
+}

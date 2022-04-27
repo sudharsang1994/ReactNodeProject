@@ -1,0 +1,555 @@
+
+
+
+// Ripple animations
+@-moz-keyframes ripple {
+	to {
+		opacity: 0;
+		transform: scale(2);
+	}
+}
+@-webkit-keyframes ripple {
+	to {
+		opacity: 0;
+		transform: scale(2);
+	}
+}
+@-o-keyframes ripple {
+	to {
+		opacity: 0;
+		transform: scale(2);
+	}
+}
+@keyframes ripple {
+	to {
+		opacity: 0;
+		transform: scale(2);
+	}
+}
+
+
+.a-btn__primary
+		background-color $primary-color!important
+		color $white!important
+		font $body1
+		letter-spacing 0px
+		text-transform initial
+		width 100%
+		.disabled
+				background-color $pale-pink
+.a-btn__primary::before, .a-btn__primary::after
+		background-color $primary-color-hover
+.mdc-button.a-btn__primary:focus
+		outline none
+.-mdc_disabled
+	opacity 0.5
+	pointer-events none
+.a-btn__secondary
+		background #FFF
+		border 1px solid $primary-color
+		border-radius 4px
+		color $primary-color
+		font $body1
+		letter-spacing 0px
+		text-transform initial
+		width 100%
+.a-btn__pagination
+		background $white
+		border 0
+		border-radius 4px
+		box-shadow 0 2px 4px 0 rgba(0, 0, 0, 0.15)
+		height 46px
+		mixin-font($body2, $lead)
+		width 100%
+		&:focus
+				outline 0
+		&.-before
+			i
+				float left
+				margin-left 30px
+				margin-right -30px
+				margin-top 4px
+		i
+				float right
+				margin-left -30px
+				margin-right 30px
+				margin-top 4px
+.a-btn__pagination.disabled
+				color $gray
+				box-shadow none
+				i
+						float left
+						margin-left 30px
+						margin-right -30px
+						margin-top 4px
+						&.icon-arrow_right
+							float right
+							margin-left -30px
+							margin-right 30px
+							margin-top 4px
+
+.plp-filter-options
+		.a-product__size, .a-product__sizeActive, .a-product__sizeDisable
+				border none
+				display inline-block
+				margin 7px 5px
+				button
+						background $white
+						border 1px solid $lead
+						border-radius 4px
+						display block
+						height 56px
+						min-width 56px
+						&:focus
+								background-color $white
+								/* border 1px solid $primary-color  added by zensar*/
+								outline 0
+
+.a-product__buttonBuy
+		height 48px
+		// margin-bottom 17px
+.a-product__buttonAddToCart.a-btn
+		height 48px
+		margin-bottom 24px
+		text-transform none
+		@media screen and (max-width: 991.5px)
+			margin-bottom 12px
+.a-product_siva_buttonAddToCart.a-btn
+		height 48px
+		margin-bottom 24px
+		text-transform none
+		@media screen and (max-width: 991.5px)
+			margin-bottom 12px
+
+.a-product__buttonShare
+		mixin-font($body1, #FFF)
+		height 48px!important
+.a-btn__clean
+		color $carbon
+		font-size .75em
+.-btn__cleanDisabled
+	color #888
+    pointer-events none
+.a-button__filters
+		.a-filters-btn
+				i
+						color $lead
+						font-size .625em
+						margin-left 1em
+
+.a-size-label
+		color #3b2b3e
+		font-size 0.875em
+		margin-top 30px
+
+.a-size-last
+		color $red
+		font-size 0.875em
+		margin 17px 0 37px
+
+.a-size-button
+		border-radius 4px
+		border 1px solid $lead
+		display inline-block
+		list-style-type none
+		margin 0 5px
+		text-align center
+		a
+				display block
+				color $lead
+				font-size 0.75em
+				height 56px
+				padding 18px 10px
+		&.active
+				border 1px solid $primary-color
+				a
+						color $primary-color
+		&.disable
+				border 1px solid $timberwolf
+				a
+						color $timberwolf
+.a-btn__goTop
+		background $white
+		border none
+		border-top-left-radius 30px
+		border-bottom-left-radius 30px
+		box-shadow 0 2px 8px 0 rgba(0, 0, 0, 0.3)
+		height 56px
+		padding-top 4px
+		-webkit-appearance none
+		width 66px
+		&:focus
+				outline 0
+		i
+				background $primary-color
+				border-radius 50%
+				color $white
+				margin-right 20px
+				padding 14px
+		.mdc-icon-button:not(.mdc-ripple-upgraded)::after
+				transition opacity 100ms linear
+		.mdc-icon-button::before, .mdc-icon-button::after
+				border-radius 0
+				background-color $white
+
+.a-btn_siva__goTop
+		background $white
+		border none
+		border-top-left-radius 30px
+		border-bottom-left-radius 30px
+		box-shadow 0 2px 8px 0 rgba(0, 0, 0, 0.3)
+		height 56px
+		padding-top 4px
+		-webkit-appearance none
+		width 66px
+		&:focus
+				outline 0
+		i
+				background $carbon
+				border-radius 50%
+				color $white
+				margin-right 20px
+				padding 14px
+		.mdc-icon-button:not(.mdc-ripple-upgraded)::after
+				transition opacity 100ms linear
+		.mdc-icon-button::before, .mdc-icon-button::after
+				border-radius 0
+				background-color $white
+
+.plp-filter-options
+		.a-product__size, .a-product__sizeActive, .a-product__sizeDisable
+				border none
+				margin 7px 5px
+				button
+						background $white
+						border 1px solid $lead
+						border-radius 4px
+						&:focus
+								background-color $white
+								/* border 1px solid $primary-color added by zensar*/
+//- header
+.a-header__hamburger
+		background-color transparent
+		border 0
+		cursor pointer
+		&:focus
+				outline none
+		i
+				color $mobile-color
+				font-size 16px
+
+//- CLP
+
+.o-clp-headingButton
+				background: $silver
+				margin-bottom: 25px
+				button
+								width: 100%
+								background: transparent
+								border: none
+				a
+								width: 100%
+								text-decoration: none
+								&:hover
+												text-decoration: none
+								&:active
+												text-decoration: none
+				h1
+								margin: 0
+								color: $carbon
+								font: $body1
+				i
+								display: flex
+								align-items: center
+								font-size: 0.813em
+								color: $carbon
+				&_text
+								height: 45px
+
+@media only screen and (min-width: 992px)
+		.a-product__buttonAddToCart.a-btn
+			background $primary-color
+			color white
+			font-size 0.75rem
+			height 44px
+			margin-top 4px
+		.a-product__buttonAddToCart.a-btn:hover
+			background $primary-color-hover
+			border-color $primary-color-hover
+			color $white
+
+
+@media only screen and (min-width: 1400px)
+	.a-product__buttonAddToCart.a-btn
+		font-size 0.875rem
+
+
+@media only screen and (min-width: 992px)
+		.a-product_siva_buttonAddToCart.a-btn
+			background $siva-brand-color
+			color white
+			font-size 0.75rem
+			height 44px
+			margin-top 4px
+		.a-product_siva_buttonAddToCart.a-btn:hover
+			background $siva-brand-color
+			border-color $siva-brand-color
+			color $white
+
+
+@media only screen and (min-width: 1400px)
+	.a-product_siva_buttonAddToCart.a-btn
+		font-size 1.0rem
+
+
+
+@keyframes splashCta {
+		0%   { background: green; }
+		100% { background: red; }
+}
+
+
+
+		.a-product__buttonAddToCart
+				background $primary-color
+				color white
+				height 44px
+
+
+
+
+
+
+
+// General buttons
+.a-btn
+	width 100%
+	height 44px
+	border-radius(4px)
+	border 2px solid
+	font $body1;
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0px;
+	text-align: center;
+	outline: none;
+
+
+	&:focus
+		outline: none
+
+	&:hover
+		cursor pointer
+
+
+.-moreInformation
+	margin-top 26px
+// For anchors
+a.a-btn
+	width: 100%;
+	min-height: 44px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+.ripple
+	overflow hidden
+	position: relative
+
+.ripple-effect{
+	position: absolute;
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+	background: #e10098;
+	animation: ripple-animation 2s;
+}
+
+
+@keyframes ripple-animation {
+		from {
+			transform: scale(0);
+			opacity: 0.4;
+		}
+		to {
+			transform: scale(100);
+			opacity: 0;
+		}
+}
+
+
+
+
+
+
+
+// When page is displayed on mobile, the height of the buttons have to be 36px
+@media only screen and (max-width: 992px)
+		.a-btn
+				height 48px
+
+// Button with background pink and text white
+.a-btn--primary
+		background $primary-color
+		color: $white
+		border-color: $primary-color
+
+		&:hover
+				background: $primary-color-hover
+				border: $primary-color-hover
+
+		&:focus
+				outline: none
+		&:disabled
+			background $primary-color-hover
+			border-color $primary-color-hover
+
+
+// Button gray with text white
+.a-btn--secondary
+		background $gray
+		color: $white
+		border-color: $gray
+
+		&:hover
+				background: $lead
+				border: $lead
+
+		&:focus
+				outline: none
+
+// Button white with text and border pink
+.a-btn--tertiary
+		background $white
+		color: $primary-color
+		border-color: $primary-color
+
+		&:hover
+				background: $white
+				color: $primary-color-hover
+				border-color: $primary-color-hover
+
+// Button white with text and border pink
+.a-btn--tertiaryAlternative
+		background $white
+		color: $carbon
+		border-color: $carbon
+
+		&:hover
+				background: $white
+				color: $lead
+				border-color: $lead
+
+// Button white with text and border gray (whisper)
+.a-btn--action
+		background: $white
+		color: $carbon
+		border: 1px solid
+		border-color: $gray89
+		&:hover
+				border-color: $gray
+		&.--secondary
+			border 2px solid $primary-color
+		&.-noRadius
+			border-radius: 0
+		&.a-btn--action--secondary
+			border 2px solid $primary-color
+
+// Button white with text and border gray (whisper) for tabs in mobile
+.a-btn__tabs
+		background: $white
+		color: $carbon
+		border: 1px solid
+		border-left none
+		border-bottom none
+		border-right none
+		border-color: $gray89
+		&:hover
+				border-color: $gray
+		&.--secondary
+			border 2px solid $primary-color
+		&.-noRadius
+			border-radius: 0
+
+// Button for size from PDP border and text (lead)
+.a-btn--actionpdp
+		background: $white
+		color: $lead
+		border: 1px solid $lead
+		&:hover
+			border-color: $primary-color
+			color: $primary-color
+		&.active
+			border-color: $primary-color
+			color: $primary-color
+			pointer-events: none
+    		cursor: pointer
+		&.-disabled
+			border-color: $timberwolf
+			color: $timberwolf
+			cursor default
+
+// Button for qty on sticky Bar (gray89)
+.a-btn--qty
+	background $white
+	border-radius 4px
+	color $black-with-opacity
+	border 1px solid $gray89
+	height 44px
+	width 44px
+
+.btn-giftRegistry__add
+	padding: 0 16px
+	i
+		float right
+		font-size .7rem
+		margin-top .25rem
+
+.a-btn__hybrid
+	margin-bottom 10px
+	margin-top 10px
+
+.a-btn__trackingRatings
+	margin-bottom 20px
+	font-size 1rem
+	padding 0px
+.a-btn__trackingRatings--mobile
+	margin-bottom 20px
+
+.a-btn-trackingOrder--cancel
+	margin-bottom 50px
+
+.a_myBag__btnApply
+	border 1px solid $primary-color
+	border-color $primary-color
+	height 36px
+
+.a-btn__billing
+		background $primary-color
+		color: $white
+		border-color: $primary-color
+
+		&:hover
+				background: $primary-color-hover
+
+		&:focus
+				outline: none
+		&:disabled
+			background $pale-pink
+			border-color $pale-pink
+
+// Button gray with text white
+.a-btn__billing--secondary
+		background $gray
+		color: $white
+		border-color: $gray
+
+		&:hover
+				background: $lead
+
+		&:focus
+				outline: none

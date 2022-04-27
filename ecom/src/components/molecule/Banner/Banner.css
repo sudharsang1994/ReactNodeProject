@@ -1,0 +1,46 @@
+.banner_imagewidth {
+    width: 100%;
+    height: 420px;
+}
+
+.bannerpos{
+position: relative;
+z-index: -99;
+}
+.banner-central-desc {
+    z-index: 1;
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 7%;
+    right: 11%;
+    width: 20%;
+}
+.banner-central-desc h1 {
+    font-size: 1.8vw;
+    font-family: 'Roboto-Bold', 'Roboto', sans-serif;
+    margin-bottom: 0.1em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #e10098;
+}
+.banner-central-desc h6 {
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    font-size: 1.3vw;
+    margin: 0.5em 0em;
+    letter-spacing: 0.02em;
+}
+.banner-central-desc p {
+    font-family: 'Roboto-Regular', 'Roboto', sans-serif;
+    font-size: 1.7vw;
+    margin: 0em 0em;
+    letter-spacing: 0.02em;
+}
+.banner-central-desc h5 {
+    font-family: 'Roboto-Bold', 'Roboto', sans-serif;
+    font-size: 6vw;
+    color: #e10098;
+    font-weight: 700;
+    line-height: .6;
+    margin: 0.1em 0em;
+}
